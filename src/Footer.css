@@ -1,0 +1,71 @@
+/* ===== Pie de contacto (Footer) ===== */
+.contact-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  padding: 20px 60px;
+  background: #ffffff;
+  border-top: 1px solid #eef2f5;
+  border-bottom: 6px solid var(--blue-primary, #1C86C4);
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-heart {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  object-fit: contain;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.contact-item a,
+.contact-item span {
+  color: var(--blue-primary, #1C86C4);
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-item a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* ===== Responsive Footer ===== */
+@media (max-width: 900px) {
+  .contact-bar {
+    justify-content: center;
+    padding: 18px 24px;
+    gap: 20px;
+  }
+
+  .contact-item a,
+  .contact-item span {
+    font-size: 14px;
+  }
+}

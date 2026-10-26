@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medlife | Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <img src="assets/img/blog/logo.png" alt="Medlife" class="logo-icon">
+      <div class="logo-text">
+        <span class="logo-title">MEDLIFE</span>
+        <span class="logo-subtitle">VIRTUAL HEALTHCARE</span>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="inicio.html">INICIO</a>
+      <a href="nosotros.html">NOSOTROS</a>
+      <a href="especialidades.html">ESPECIALIDADES</a>
+      <a href="servicios.html">SERVICIOS</a>
+      <a href="blog.html" class="active">BLOG</a>
+      <a href="farmacia.html">FARMACIA</a>
+      <a href="pagos.html">PAGOS</a>
+    </nav>
+  </header>
+
+  <div class="gray-bar"></div>
+
+  <main class="blog-section">
+
+    <!--
+      Panel blanco que envuelve el artículo principal (meta + artículo + sidebar),
+      así descansa legible sobre la imagen de fondo sin tocar ningún color de texto original.
+    -->
+    <div class="content-panel">
+
+      <div class="post-meta">
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" class="meta-icon"><circle cx="12" cy="12" r="9" fill="none" stroke="#414042" stroke-width="1.6"/><path d="M12 7 V12 L16 14" fill="none" stroke="#414042" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          PUBLICADO HACE 2 AÑOS
+        </span>
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" class="meta-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="#414042" stroke-width="1.6"/><path d="M10 8 h4 M12 6 v4" stroke="#414042" stroke-width="1.4" stroke-linecap="round"/></svg>
+          SALUD
+        </span>
+      </div>
+
+      <div class="blog-grid">
+
+        <article class="post-body" id="post-lepra">
+
+          <div class="post-head">
+            <div class="post-image">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="200" rx="16" fill="#EAF6FA"/>
+                <path d="M100 155 C65 130, 45 105, 55 78 C63 55, 90 58, 100 78 C110 58, 137 55, 145 78 C155 105, 135 130, 100 155 Z"
+                      fill="none" stroke="#1C86C4" stroke-width="6" stroke-linejoin="round"/>
+                <path d="M70 100 C66 92, 74 84, 82 88 C86 90, 86 96, 82 100 L74 108"
+                      fill="none" stroke="#4FB8D6" stroke-width="4.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="post-intro">
+              <h1>¿Qué es la lepra?</h1>
+              <p>La lepra, también llamada enfermedad de Hansen, es una enfermedad infecciosa crónica causada por una bacteria llamada Mycobacterium leprae. Esta bacteria afecta principalmente la piel, los nervios periféricos, los ojos y algunas partes de las vías respiratorias.</p>
+            </div>
+          </div>
+
+          <p>La lepra se transmite de una persona a otra principalmente a través de gotas que salen por la nariz o la boca cuando una persona enferma y no tratada tose o estornuda. Sin embargo, no es una enfermedad muy contagiosa, y normalmente se necesita contacto cercano y prolongado con una persona infectada para que ocurra el contagio.</p>
+
+          <p>Uno de los síntomas más comunes de la lepra es la aparición de manchas claras o rojizas en la piel que pueden perder sensibilidad. También pueden aparecer entumecimiento en manos y pies, debilidad muscular, lesiones en la piel y daño en los nervios. Si la enfermedad no se trata a tiempo, puede causar daños permanentes en los nervios, deformaciones en manos o pies y problemas en los ojos.</p>
+
+          <p>La lepra tiene cura. Actualmente se trata con una combinación de antibióticos especiales durante varios meses, tratamiento conocido como terapia multidrogas, recomendado por la Organización Mundial de la Salud. Con el tratamiento adecuado, la persona deja de contagiar rápidamente y puede recuperarse.</p>
+
+          <div class="post-actions">
+            <button class="like-btn" type="button" data-post="lepra">
+              <svg viewBox="0 0 24 24" class="like-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="like-count">0</span>
+            </button>
+          </div>
+
+        </article>
+
+        <aside class="sidebar">
+          <h3>Categorías</h3>
+          <ul class="category-list">
+            <li><a href="#">Bienestar</a></li>
+            <li><a href="#">Corporativo</a></li>
+            <li><a href="#">Salud</a></li>
+          </ul>
+
+          <h3>Entradas recientes</h3>
+          <ul class="recent-list">
+            <li>
+              <a href="#post-lepra">¿Qué es la lepra?</a>
+              <span class="recent-excerpt">Enfermedad infecciosa crónica que afecta la piel y los nervios periféricos.</span>
+            </li>
+            <li>
+              <a href="#post-asperger">Día internacional del síndrome de Asperger</a>
+              <span class="recent-excerpt">Una condición del espectro autista que afecta la comunicación social.</span>
+            </li>
+            <li>
+              <a href="#post-glaucoma">Día mundial del glaucoma</a>
+              <span class="recent-excerpt">Daño progresivo del nervio óptico y una de las principales causas de ceguera.</span>
+            </li>
+            <li>
+              <a href="#post-vacunacion">La importancia de la vacunación</a>
+              <span class="recent-excerpt">Una de las herramientas más efectivas para prevenir enfermedades graves.</span>
+            </li>
+            <li>
+              <a href="#post-corazon">Hábitos para un corazón saludable</a>
+              <span class="recent-excerpt">Pequeñas decisiones diarias que protegen tu salud cardiovascular.</span>
+            </li>
+            <li>
+              <a href="#post-hipertension">¿Qué es la hipertensión arterial?</a>
+              <span class="recent-excerpt">Presión arterial elevada de forma sostenida, muchas veces sin síntomas.</span>
+            </li>
+          </ul>
+        </aside>
+
+      </div>
+
+    </div>
+
+    <!-- Segundo panel blanco: los 5 artículos nuevos -->
+    <div class="content-panel more-articles-panel">
+      <h2 class="more-title">Más artículos sobre salud</h2>
+
+      <div class="more-articles-grid">
+
+        <!-- Artículo 2 -->
+        <article class="mini-post" id="post-asperger">
+          <div class="mini-head">
+            <div class="mini-image">
+              <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="140" rx="14" fill="#EAF6FA"/>
+                <path d="M55 45 H85 V55 C85 61 90 61 90 55 V45 H100 V75 C94 75 94 83 100 83 V105 H70 C70 99 62 99 62 105 H40 V83 C46 83 46 75 40 75 V45 H55 Z" fill="none" stroke="#1C86C4" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="mini-intro">
+              <h3>Día internacional del síndrome de Asperger</h3>
+              <p class="mini-excerpt">El síndrome de Asperger es una condición del espectro autista que afecta la forma en que una persona se comunica y se relaciona con los demás, sin afectar su desarrollo cognitivo general.</p>
+            </div>
+          </div>
+          <div class="mini-full hidden">
+            <p>El síndrome de Asperger es una condición del neurodesarrollo dentro del espectro autista. Las personas con esta condición suelen tener un desarrollo cognitivo y del lenguaje típico, pero pueden presentar dificultades para interpretar señales sociales, mantener contacto visual o entender el lenguaje no verbal.</p>
+            <p>Entre las características más comunes se encuentran los intereses intensos y específicos en determinados temas, la preferencia por rutinas estructuradas y una alta sensibilidad a estímulos como sonidos, luces o texturas.</p>
+            <p>No existe una cura porque no se trata de una enfermedad, sino de una forma distinta de percibir el mundo. El acompañamiento profesional, la terapia ocupacional y el apoyo familiar ayudan a que la persona desarrolle sus habilidades sociales y de comunicación.</p>
+          </div>
+          <div class="mini-actions">
+            <button class="read-more-btn" type="button" data-target="post-asperger">Leer más</button>
+            <button class="like-btn" type="button" data-post="asperger">
+              <svg viewBox="0 0 24 24" class="like-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="like-count">0</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Artículo 3 -->
+        <article class="mini-post" id="post-glaucoma">
+          <div class="mini-head">
+            <div class="mini-image">
+              <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="140" rx="14" fill="#EAF6FA"/>
+                <path d="M25 70 C40 45 100 45 115 70 C100 95 40 95 25 70 Z" fill="none" stroke="#1C86C4" stroke-width="5" stroke-linejoin="round"/>
+                <circle cx="70" cy="70" r="14" fill="none" stroke="#4FB8D6" stroke-width="5"/>
+                <circle cx="70" cy="70" r="5" fill="#4FB8D6"/>
+              </svg>
+            </div>
+            <div class="mini-intro">
+              <h3>Día mundial del glaucoma</h3>
+              <p class="mini-excerpt">El glaucoma es una enfermedad ocular que daña el nervio óptico de forma progresiva y silenciosa, siendo una de las principales causas de ceguera irreversible en el mundo.</p>
+            </div>
+          </div>
+          <div class="mini-full hidden">
+            <p>El glaucoma es un grupo de enfermedades oculares que dañan el nervio óptico, generalmente asociado a un aumento en la presión intraocular. Su avance suele ser lento y, en las primeras etapas, no presenta síntomas evidentes.</p>
+            <p>Por esta razón se le conoce como "el ladrón silencioso de la visión": muchas personas pierden visión periférica de forma gradual sin notarlo, hasta que el daño ya es considerable.</p>
+            <p>El diagnóstico temprano mediante exámenes oftalmológicos regulares es la mejor forma de prevenir su avance. Aunque el daño ya causado no se puede revertir, existen tratamientos con gotas, láser o cirugía que ayudan a controlar la presión ocular y frenar la progresión de la enfermedad.</p>
+          </div>
+          <div class="mini-actions">
+            <button class="read-more-btn" type="button" data-target="post-glaucoma">Leer más</button>
+            <button class="like-btn" type="button" data-post="glaucoma">
+              <svg viewBox="0 0 24 24" class="like-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="like-count">0</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Artículo 4 -->
+        <article class="mini-post" id="post-vacunacion">
+          <div class="mini-head">
+            <div class="mini-image">
+              <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="140" rx="14" fill="#EAF6FA"/>
+                <path d="M70 30 L100 42 V70 C100 92 87 106 70 112 C53 106 40 92 40 70 V42 Z" fill="none" stroke="#1C86C4" stroke-width="5" stroke-linejoin="round"/>
+                <path d="M70 55 V85 M55 70 H85" stroke="#4FB8D6" stroke-width="6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="mini-intro">
+              <h3>La importancia de la vacunación</h3>
+              <p class="mini-excerpt">Las vacunas son una de las herramientas más efectivas de la medicina moderna para prevenir enfermedades infecciosas graves, tanto a nivel individual como en toda la comunidad.</p>
+            </div>
+          </div>
+          <div class="mini-full hidden">
+            <p>Las vacunas funcionan preparando al sistema inmunológico para reconocer y combatir un virus o bacteria específico, sin necesidad de pasar por la enfermedad real. Esto reduce significativamente el riesgo de desarrollar complicaciones graves.</p>
+            <p>Además de proteger a quien se vacuna, la vacunación contribuye a la llamada inmunidad de rebaño, que ayuda a proteger a personas que no pueden recibir ciertas vacunas por condiciones médicas particulares.</p>
+            <p>Mantener al día el esquema de vacunación, tanto en la infancia como en la adultez, es una de las medidas más simples y efectivas para prevenir enfermedades como el sarampión, la influenza, el tétanos o la hepatitis.</p>
+          </div>
+          <div class="mini-actions">
+            <button class="read-more-btn" type="button" data-target="post-vacunacion">Leer más</button>
+            <button class="like-btn" type="button" data-post="vacunacion">
+              <svg viewBox="0 0 24 24" class="like-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="like-count">0</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Artículo 5 -->
+        <article class="mini-post" id="post-corazon">
+          <div class="mini-head">
+            <div class="mini-image">
+              <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="140" rx="14" fill="#EAF6FA"/>
+                <path d="M70 100 C40 78 25 60 35 42 C42 30 60 32 70 46 C80 32 98 30 105 42 C115 60 100 78 70 100 Z" fill="none" stroke="#1C86C4" stroke-width="5" stroke-linejoin="round"/>
+                <path d="M40 68 H55 L62 55 L72 80 L80 62 L86 68 H100" fill="none" stroke="#4FB8D6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="mini-intro">
+              <h3>Hábitos para un corazón saludable</h3>
+              <p class="mini-excerpt">Cuidar la salud cardiovascular no depende de un solo hábito, sino de pequeñas decisiones diarias relacionadas con la alimentación, la actividad física y el descanso.</p>
+            </div>
+          </div>
+          <div class="mini-full hidden">
+            <p>El corazón es uno de los órganos que más se beneficia de hábitos de vida saludables. Una alimentación balanceada, con bajo consumo de grasas saturadas y sal, ayuda a mantener la presión arterial y el colesterol en niveles adecuados.</p>
+            <p>La actividad física regular, incluso caminar 30 minutos al día, fortalece el músculo cardíaco y mejora la circulación. Evitar el sedentarismo prolongado es igual de importante que hacer ejercicio de forma puntual.</p>
+            <p>El descanso adecuado y el manejo del estrés también influyen directamente en la salud cardiovascular. Dormir mal o vivir bajo estrés constante puede elevar la presión arterial y aumentar el riesgo de enfermedades del corazón.</p>
+          </div>
+          <div class="mini-actions">
+            <button class="read-more-btn" type="button" data-target="post-corazon">Leer más</button>
+            <button class="like-btn" type="button" data-post="corazon">
+              <svg viewBox="0 0 24 24" class="like-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="like-count">0</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Artículo 6 -->
+        <article class="mini-post" id="post-hipertension">
+          <div class="mini-head">
+            <div class="mini-image">
+              <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                <rect width="140" height="140" rx="14" fill="#EAF6FA"/>
+                <circle cx="70" cy="75" r="35" fill="none" stroke="#1C86C4" stroke-width="5"/>
+                <line x1="70" y1="75" x2="90" y2="55" stroke="#4FB8D6" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="70" cy="75" r="4" fill="#1C86C4"/>
+                <path d="M55 35 V25 M85 35 V25" stroke="#1C86C4" stroke-width="5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="mini-intro">
+              <h3>¿Qué es la hipertensión arterial?</h3>
+              <p class="mini-excerpt">La hipertensión arterial es una condición crónica en la que la presión de la sangre contra las paredes de las arterias se mantiene elevada de forma sostenida.</p>
+            </div>
+          </div>
+          <div class="mini-full hidden">
+            <p>La hipertensión arterial ocurre cuando la fuerza con la que la sangre presiona las paredes de las arterias es constantemente más alta de lo normal. Con el tiempo, esta presión adicional puede dañar los vasos sanguíneos y órganos como el corazón, los riñones y el cerebro.</p>
+            <p>En la mayoría de los casos no presenta síntomas claros, por lo que se le conoce como una enfermedad silenciosa. Solo puede detectarse a través de la medición regular de la presión arterial.</p>
+            <p>El control de la hipertensión generalmente combina cambios en el estilo de vida, como reducir el consumo de sal y mantener un peso saludable, junto con tratamiento médico cuando es necesario. El seguimiento con un profesional de la salud es clave para evitar complicaciones.</p>
+          </div>
+          <div class="mini-actions">
+            <button class="read-more-btn" type="button" data-target="post-hipertension">Leer más</button>
+            <button class="like-btn" type="button" data-post="hipertension">
+              <svg viewBox="0 0 24 24" class="like-icon"><path d="M12 20 C5 15, 3 10, 7 6.5 C9.5 4.3, 12 5.5, 12 8 C12 5.5, 14.5 4.3, 17 6.5 C21 10, 19 15, 12 20 Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+              <span class="like-count">0</span>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+  </main>
+
+  <a href="ia.html" class="ia-float-btn" aria-label="Ir a IA">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="48" fill="#ffffff"/>
+      <polygon points="42.0,25.0 49.1,47.9 72.0,55.0 49.1,62.1 42.0,85.0 34.9,62.1 12.0,55.0 34.9,47.9" fill="#2E9EF0"/>
+      <polygon points="74.0,15.0 76.5,23.5 85.0,26.0 76.5,28.5 74.0,37.0 71.5,28.5 63.0,26.0 71.5,23.5" fill="#2E9EF0"/>
+      <g fill="#2E9EF0">
+        <rect x="70" y="70" width="18" height="6" rx="2"/>
+        <rect x="76" y="64" width="6" height="18" rx="2"/>
+      </g>
+      <text x="42" y="60" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="800" font-size="20" fill="#ffffff">IA</text>
+    </svg>
+  </a>
+
+  <script src="blog.js"></script>
+</body>
+</html>
